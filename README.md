@@ -68,3 +68,29 @@ mvn clean compile exec:java -Dexec.mainClass="org.example.builder.Main"
 --- Product Created Successfully ---
 Product [id=id1, name=SuperWidget, category=TOOLS, rating=8, createdDate=2026-09-16, modifiedDate=2026-09-16]
 ```
+## ✨ Part 2: The Decorator Pattern (Structural)
+
+The Decorator Pattern allows you to add new functionality to an object dynamically under runtime without altering its original class structure. This implementation demonstrates wrapping a regular `Product` to dynamically calculate a price discount.
+
+---
+
+## 🚀 Execution Guide
+
+Since this is an officially structured Maven project, you can compile and run each individual part instantly from your terminal:
+
+### 1. Run Part 1: The Builder Pattern
+```bash
+mvn clean compile exec:java -Dexec.mainClass="org.example.builder.Main"
+```
+
+### 2. Run Part 2: The Decorator Pattern
+```bash
+mvn clean compile exec:java -Dexec.mainClass="org.example.decorator.Main"
+```
+
+### 🧪 3. Run All Unit Tests
+To verify code coverage and structural integrity for public methods:
+```bash
+mvn clean test
+```
+Använd koden med försiktighet.🚀 Steg 2: Spara och skicka upp till din branch decorateEftersom du vet att din kod har 4 godkända tester, sparar vi denna README direkt via IntelliJ GUI:Klicka på den gröna Commit-ikonen ✔️ till vänster.Markera kryssrutan för README.md (och pom.xml om den har ändringar).Skriv ett meddelande: docs: update README with execution steps for part 1 and 2Klicka på den blåa knappen Commit.Tryck på ditt tangentbord: Ctrl + Shift + K och klicka på den blåa knappen Push!När det har laddat klart ligger din uppdaterade README uppe på din GitHub-profil under din branch decorate! Det blir supertydligt för din lärare att se. [1] (https://www.guideflow.com/tutorial/how-to-update-a-readme-file-in-github)Gick din Push till GitHub igenom utan problem? Om du går in på webbläsaren, kan du se den nya texten på GitHub-hemsidan under branchen decorate?AI-svar kan innehålla fel. Läs merGuideflowHow to update a README file in GitHub - Guideflow Tutorials12 mars 2026 — To update a README file in GitHub, you can do the following: 1. Open the repository that contains the README file 2. Click the **E...
