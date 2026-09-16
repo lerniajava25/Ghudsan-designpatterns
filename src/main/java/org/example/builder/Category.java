@@ -1,4 +1,10 @@
+
+
 package org.example.builder;
 
-public class Category {
+public enum Category {
+    TOOLS,
+    ELECTRONICS,
+    CLOTHING,
+    BOOKS
 }
