@@ -88,9 +88,3 @@ mvn clean compile exec:java -Dexec.mainClass="org.example.builder.Main"
 mvn clean compile exec:java -Dexec.mainClass="org.example.decorator.Main"
 ```
 
-### 🧪 3. Run All Unit Tests
-To verify code coverage and structural integrity for public methods:
-```bash
-mvn clean test
-```
-Använd koden med försiktighet.🚀 Steg 2: Spara och skicka upp till din branch decorateEftersom du vet att din kod har 4 godkända tester, sparar vi denna README direkt via IntelliJ GUI:Klicka på den gröna Commit-ikonen ✔️ till vänster.Markera kryssrutan för README.md (och pom.xml om den har ändringar).Skriv ett meddelande: docs: update README with execution steps for part 1 and 2Klicka på den blåa knappen Commit.Tryck på ditt tangentbord: Ctrl + Shift + K och klicka på den blåa knappen Push!När det har laddat klart ligger din uppdaterade README uppe på din GitHub-profil under din branch decorate! Det blir supertydligt för din lärare att se. [1] (https://www.guideflow.com/tutorial/how-to-update-a-readme-file-in-github)Gick din Push till GitHub igenom utan problem? Om du går in på webbläsaren, kan du se den nya texten på GitHub-hemsidan under branchen decorate?AI-svar kan innehålla fel. Läs merGuideflowHow to update a README file in GitHub - Guideflow Tutorials12 mars 2026 — To update a README file in GitHub, you can do the following: 1. Open the repository that contains the README file 2. Click the **E...
